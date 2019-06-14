@@ -2,7 +2,7 @@
 #include "USBSerial.h" 
 #include "PwmOut.h"
 
-PwmOut led(PD_12);//green
+PwmOut led(PD_12);
 USBSerial pc;
 char char_Bt;
 float pwm_step=0.02;
